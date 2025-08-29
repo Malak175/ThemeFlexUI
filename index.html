@@ -11,25 +11,42 @@
     <!-- Header -->
     <header>
        <nav>
-           <div class="leftHeader">
+          <div class="leftHeader">
              <h2>MyLogo</h2>
-           </div>
-           <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-           <ul class="nav-links">
+          </div>
+          <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+          <ul class="nav-links">
              <li><a href="#">Home</a></li>
              <li><a href="#">About</a></li>
              <li><a href="#">Features</a></li>
              <li><a href="#">Courses</a></li>
              <li><a href="#">Contact</a></li>
-           </ul>
-           <div class="rightHeader">
+          </ul>
+          <div class="rightHeader">
              <button class="toggle-btn" onclick="toggleMode()">🌞 Light Mode</button>
                 <ul>        
                    <li><a href="login.html">Login</a></li>
                    <li><a href="sign.html">Sign Up</a></li>
                </ul>
-           </div>
-        </nav>      
+          </div>
+          <div class="links">
+            <span class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <ul>
+              <li><a href="#stats">Stats</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#start-learning">Start learning</a></li>
+              <li><a href="#get-startedg">Get started</a></li>
+              <li><a href="#mobile-app">Mobile app</a></li>
+              <li><a href="#footer">Footer</a></li>
+            </ul>
+        </div>   
+      </nav>          
       <section class="hero">
         <div class="hero-left">
           <h1>Improve your <span>Skills</span> Faster</h1>        
@@ -41,14 +58,14 @@
       </section>     
     </header>
     <!-- section -->
-    <section class="stats">
+    <section class="stats" id="stats">
       <div class="stat">4.5 <span>BDC Reviews</span></div>
       <div class="stat">30M <span>Learners</span></div>
       <div class="stat">2M+ <span>Courses</span></div>
       <div class="stat">1K+ <span>Popular</span></div>
     </section>
     <!-- About Section -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="aboutLeft">
           <img src="imges/About.png" alt="Online Education" >
         </div>
@@ -58,7 +75,7 @@
         </div>        
     </section>
     <!-- Features Section -->
-    <section class="features">
+    <section class="features" id="features">
       <div class="cardOne">
         <h2>Our <span>Features</span> <br>Special For you</h2>
         <button>See All Features <i class="fa-solid fa-arrow-right"></i></button>
@@ -85,7 +102,7 @@
       </div>      
     </section>
     <!-- Portfolio / Courses Section -->
-    <section class="popular-courses">
+    <section class="popular-courses" id="portfolio">
       <h2>Popular <span>Courses</span></h2>
       <div class="course-cards">
         <div class="card">
@@ -118,7 +135,7 @@
       </div>
     </section>
     <!--Start-learning Section-->
-    <section class="start-learning">
+    <section class="start-learning" id="start-learning">
         <div class="learning-left">
           <h2>Its easy to start <br><span>Learning</span></h2>
           <p>Our Sign-In Process Lets You Start Your Learning Journey Without Much Hassle. Our Aim Is To Create A Great Learning Experience For You.</p>
@@ -133,7 +150,7 @@
         </div>
     </section>
     <!--Get-started Section-->
-    <section class="get-started">
+    <section class="get-started" id="get-started">
       <div class="get-left">
         <img src="imges/getstart.png" alt="">
       </div>
@@ -144,7 +161,7 @@
         </div>
     </section>
     <!--Mobile-app Section-->
-    <section class="mobile-app">
+    <section class="mobile-app" id="mobile-app">
         <h1>Try Learning Free <br>on <span>Mobile App</span></h1>
         <div class="app-a">
             <a href="https://play.google.com/store/games?device=windows&pli=1"> <img src="imges/google-play.png" alt="">Google Play</a>
@@ -152,7 +169,7 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
       <div class="footer-column" id="footerco">
         <h2>MONAC</h2>
         <p class="description">
